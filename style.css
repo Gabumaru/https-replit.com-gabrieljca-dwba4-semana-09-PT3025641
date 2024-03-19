@@ -1,0 +1,161 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 2; 
+  position: relative;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li:last-child {
+  float: right; 
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+.logo-img {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  position: relative; 
+  display: inline-block; 
+  width: 100%; 
+}
+
+.green-background {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: green; 
+  z-index: 1; 
+}
+
+.raroimg {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
+}
+.raroimg img {
+  border-radius: 50%; /* Deixa a borda da imagem oval */
+}
+
+.aniversario {
+  border: 1px solid black;
+  padding: 10px; 
+  
+}
+
+select {
+  width: 100%;
+    height: 40px; 
+    background-color: #CCCCCC; 
+  }
+
+.seleciones {
+  border: 1px solid black; 
+  padding: 10px; 
+}
+
+.informações_pessoais input[type="email"],
+.informações_pessoais input[type="tel"],
+.informações_pessoais input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+.inscrever{
+  background-color: green;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.limpar{
+  background-color: green;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.enviar{
+  background-color: green;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+
+
+.formulario ol {
+    list-style-type: none;
+    counter-reset: item;
+}
+
+.formulario ol li {
+    counter-increment: item;
+    margin-bottom: 10px;
+}
+
+.formulario ol li::before {
+    content: "\2022"; /* Código unicode para uma bolinha preta */
+    color: black;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="assunto"]
+{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+#mensagem {
+  width: 100%; 
+  height: 100px; 
+}
+
+.usario_login{
+  padding: 20px;
+  background-color: #efebeb;
+  
+}
+.senha_login{
+  padding: 20px;
+  background-color: #efebeb;
+
+}
+.entrar  {
+  padding: 20px;
+  background-color: #efebeb;
+  }
+
+.butao{
+  color: white;
+  background-color: green;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px; 
+  
+}
